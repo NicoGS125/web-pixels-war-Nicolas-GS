@@ -22,7 +22,7 @@ Voici ce que l'API permet de faire:
   pour obtenir une clef pour apeller l'init  
   * Contenu de la reponse:  
     `{"key": "some_key"}`
-* `https://pixels-war.oie-lab.net/api/v1/TEST/init?key={some_key}`  
+* `https://pixels-war.oie-lab.net/api/v1/TEST/init?key=51E7885EC625489A11867292407FDDAA`  
   pour obtenir - entre autres - toute la map; vous recevrez aussi un `user_id`, que vous allez repasser ensuite à la même fonction.  
   * Contenu de la reponse:  
     `{"id": "user_id", "nx":100, "ny":100, "data":[[...]]}`
